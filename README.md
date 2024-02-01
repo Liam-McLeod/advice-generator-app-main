@@ -17,8 +17,8 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ### Links
 
--  [Solution URL](https://www.frontendmentor.io/solutions/expenses-chart-component-chartjs-A_tuMgrSpl)
--  [Live Site URL](https://liam-mcleod.github.io/expenses-chart-component-main/)
+-  [Solution URL](https://www.frontendmentor.io/solutions/advice-generator-app-ctvl8pYiep)
+-  [Live Site URL](https://liam-mcleod.github.io/advice-generator-app-main/)
 
 ## Author
 - Frontend Mentor - [@Liam-McLeod](https://www.frontendmentor.io/profile/Liam-McLeod)
