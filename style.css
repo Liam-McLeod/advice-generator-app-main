@@ -1,0 +1,93 @@
+:root {
+    --Light-Cyan: hsl(193, 38%, 86%);
+    --Neon-Green: hsl(150, 100%, 66%);
+
+    --Grayish-Blue: hsl(217, 19%, 38%);
+    --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+    --Dark-Blue: hsl(218, 23%, 16%);
+
+    --default-font-family: "Manrope", sans-serif;
+    --fw-bold: 800;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  font: inherit;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+    background-color: var(--Dark-Blue);
+    color: var(--Light-Cyan);
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: var(--default-font-family);
+    font-weight: var(--fw-bold);
+    font-size: 28px;
+}
+
+main {
+    background-color: var(--Dark-Grayish-Blue);
+    margin: 1rem;
+    padding: 2rem 1rem 4rem 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    display: grid;
+    gap: 1rem;
+    place-items: center;
+    position: relative;
+    max-width: 32rem;
+}
+
+main > p {
+    color: var(--Neon-Green);
+    font-size: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+main > button {
+    background-color: var(--Neon-Green);
+    border-radius: 100%;
+    padding: 1rem;
+    border: none;
+    position: absolute;
+    bottom: -1.7rem;
+}
+
+main > button:hover {
+    box-shadow: 0px 0px 20px var(--Neon-Green);
+}
+
+@media (min-width: 600px) {
+    main {
+        min-width: 32rem;
+        padding: 3rem 2rem 4rem 2rem;
+        gap: 1.5rem;
+    }
+
+    main > p {
+        font-size: 0.8rem;
+    }
+
+
+    main > h1 {
+        margin-bottom: 0.7rem;
+    }
+
+    main > button {
+        padding: 1.2rem;
+    }
+}
